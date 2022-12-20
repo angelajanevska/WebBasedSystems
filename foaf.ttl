@@ -21,7 +21,8 @@
   foaf:knows [
     a foaf:Person ;
     foaf:name "Galena" ;
-    foaf:mbox_sha1sum "aa55b1d076843845b6134d76f8cde464a73fbefd"
+    foaf:mbox_sha1sum "aa55b1d076843845b6134d76f8cde464a73fbefd" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/galenamilenkoska/wbs/main/foaf.ttl/ttl.txt>
   ], [
     a foaf:Person ;
     foaf:name "Emilijan" ;
