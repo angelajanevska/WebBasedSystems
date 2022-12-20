@@ -16,7 +16,7 @@
   foaf:givenname "Angela" ;
   foaf:family_name "Janevska" ;
   foaf:mbox_sha1sum "0195929f5d70c1c4bebb43b0d8e0e99399b9f224" ;
-  foaf:workInfoHomepage <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/Software development> ;
+  foaf:workInfoHomepage <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/Software_development> ;
   foaf:schoolHomepage <mailto:finki.ukim.mk> ;
   foaf:knows [
     a foaf:Person ;
