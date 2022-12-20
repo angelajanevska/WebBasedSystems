@@ -1,27 +1,35 @@
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl> <http://xmlns.com/foaf/0.1/maker> <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/name> "Angela Janevska" .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/title> "Ms" .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/givenname> "Angela" .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/family_name> "Janevska" .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "0195929f5d70c1c4bebb43b0d8e0e99399b9f224" .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/Software development> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/finki.ukim.mk> .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid1 .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid2 .
-<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid3 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid1 <http://xmlns.com/foaf/0.1/name> "Galena" .
-_:genid1 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "aa55b1d076843845b6134d76f8cde464a73fbefd" .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid2 <http://xmlns.com/foaf/0.1/name> "Emilijan" .
-_:genid2 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "d4295679d0653404aa755edee9364491adee6091" .
-_:genid2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:genid3 <http://xmlns.com/foaf/0.1/name> "Martin" .
-_:genid3 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "afb49eab1ffe4e07a1c5f72d313b35ec1763fc6b" .
-_:genid3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Angela Janevska" ;
+  foaf:title "Ms" ;
+  foaf:givenname "Angela" ;
+  foaf:family_name "Janevska" ;
+  foaf:mbox_sha1sum "0195929f5d70c1c4bebb43b0d8e0e99399b9f224" ;
+  foaf:workInfoHomepage <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/Software development> ;
+  foaf:schoolHomepage <https://raw.githubusercontent.com/angelajanevska/WebBasedSystems/main/finki.ukim.mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Galena" ;
+    foaf:mbox_sha1sum "aa55b1d076843845b6134d76f8cde464a73fbefd"
+  ], [
+    a foaf:Person ;
+    foaf:name "Emilijan" ;
+    foaf:mbox_sha1sum "d4295679d0653404aa755edee9364491adee6091" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/bratuchedot/foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Martin" ;
+    foaf:mbox_sha1sum "afb49eab1ffe4e07a1c5f72d313b35ec1763fc6b" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
+  ] .
